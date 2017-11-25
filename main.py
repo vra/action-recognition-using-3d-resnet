@@ -12,7 +12,6 @@ def get_params():
 	parser = argparse.ArgumentParser('Pytorch Tools for Extract 3D Resnet \
 		Features and Classify Videos')
 	parser.add_argument('-dataset', required=True, choices=['ucf101', 'hmdb51'])
-#	parser.add_argument('-pooling', require=True, choices=['mean', 'max'])
 	return parser
 	
 	
